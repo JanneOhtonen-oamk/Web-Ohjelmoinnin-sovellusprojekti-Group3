@@ -1,3 +1,9 @@
+html {
+  overflow-y: scroll;
+}
+
+
+
 body {
   background-color: #202435;
   font-size: 75%;
@@ -5,6 +11,62 @@ body {
 
 * {
   box-sizing: border-box;
+}
+/* */
+
+a {
+  text-decoration: none;
+}
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+h2{
+  text-align: center;
+  margin: 0 0 40px;
+}
+
+label.active{
+  transform: translateY(50px);
+  left: 2px;
+}
+
+
+label{
+  position: absolute;
+  transform: translateY(6px);
+  left: 13px;
+  color: #202435;
+  transition: all 0.25s ease;
+  -webkit-backface-visibility:hidden;
+  pointer-events: none;
+  font-size: 12px;
+}
+
+
+label.highlight{
+  color: #FFF;
+}
+
+input, textarea{
+  font-size: 22px;
+  display: block;
+  width: 100%;
+  padding: 5px 10px;
+  background-color: #00D8FF;
+  border: 3px solid #00D8FF;
+  border-radius: 0;
+}
+
+textarea{
+  border: 3px solid red;
+  resize: vertical;
+}
+
+.field-wrap {
+  position:relative;
+  margin-bottom:40px;
 }
 
 
@@ -30,12 +92,8 @@ ul {
   padding: 0;
 }
 
-
-
-
-
 button {
-  width: 123px;
+  letter-spacing: .1em;
   position: relative;
   background: none;
   cursor: pointer;
@@ -44,12 +102,9 @@ button {
   float: left;
   font-weight: bold;
   margin: 2px;
-  padding: 17.5px 30px;
+  padding: 12px 13px;
   text-transform: uppercase;
-}
 
-a {
-  text-decoration: none;
 }
 
 button::before,
@@ -66,6 +121,7 @@ button:hover {
 
 .btn-1 {
   overflow: hidden;
+  max-width: 30%;
 }
 
 .btn-1::after {
@@ -74,9 +130,6 @@ button:hover {
   top: 50%;
   width: 0;
 }
-
-
-
 
 .btn-1:hover::after {
   height: 100%;
@@ -106,4 +159,8 @@ button:hover {
 
   .col-6 {
     width: 100%;
+  }
+
+  .col-3{
+    max-width: 100%;
   }

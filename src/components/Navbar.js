@@ -13,13 +13,13 @@ export default function Navbar() {
               </Link>
             </li>
             <li>
-              <Link to="/login">
-                <button class="btn-1">Log In</button>
+              <Link to="/signup">
+                <button class="btn-1">Sign Up</button>
               </Link>
             </li>
             <li>
-              <Link to="/signup">
-                <button class="btn-1">Sign Up</button>
+              <Link to="/login">
+                <button class="btn-1">Log In</button>
               </Link>
             </li>
           </ul>

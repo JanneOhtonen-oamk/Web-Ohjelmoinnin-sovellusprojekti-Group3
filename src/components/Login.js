@@ -20,7 +20,7 @@ export default function Login() {
             </label>
             <input type="password" required autocomplete="off" />
           </div>
-          <button class="button button-block">Log In</button>
+          <button class="btn-1">Log In</button>
         </form>
       </div>
     </div>
