@@ -3,7 +3,6 @@ html {
 }
 
 
-
 body {
   background-color: #202435;
   font-size: 75%;
@@ -16,6 +15,7 @@ body {
 
 a {
   text-decoration: none;
+  color: #00D8FF;
 }
 
 *, *:before, *:after {
@@ -32,7 +32,7 @@ label.active{
   left: 2px;
 }
 
-
+/*
 label{
   position: absolute;
   transform: translateY(6px);
@@ -43,11 +43,8 @@ label{
   pointer-events: none;
   font-size: 12px;
 }
+*/
 
-
-label.highlight{
-  color: #FFF;
-}
 
 input, textarea{
   font-size: 22px;
@@ -57,6 +54,7 @@ input, textarea{
   background-color: #00D8FF;
   border: 3px solid #00D8FF;
   border-radius: 0;
+
 }
 
 textarea{
@@ -68,9 +66,6 @@ textarea{
   position:relative;
   margin-bottom:40px;
 }
-
-
-
 
 .header {
   background-color: #00D8FF;

@@ -8,18 +8,17 @@ export default function Login() {
 
         <form action="/" method="post">
           <div class="field-wrap">
-            <label>
-              Email Address<span class="req">*</span>
-            </label>
-            <input type="email" required autocomplete="off" />
+            <label>Username:</label>
+            <input type="text" required autocomplete="off" />
           </div>
 
           <div class="field-wrap">
-            <label>
-              Password<span class="req">*</span>
-            </label>
+            <label>Password:</label>
             <input type="password" required autocomplete="off" />
           </div>
+          <p class="forgot">
+            <>No User? </> <a href="/SignUp">Sign Up.</a>
+          </p>
           <button class="btn-1">Log In</button>
         </form>
       </div>
