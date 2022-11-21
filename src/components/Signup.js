@@ -14,11 +14,6 @@ export default function SignUp() {
             </div>
 
             <div class="field-wrap">
-              <label>Email Address:</label>
-              <input type="email" required autocomplete="off" />
-            </div>
-
-            <div class="field-wrap">
               <label>Set A Password:</label>
               <input type="password" required autocomplete="off" />
             </div>
